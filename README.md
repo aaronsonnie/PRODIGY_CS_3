@@ -1,18 +1,18 @@
 # PRODIGY_CS_3
 
 # Password Complexity Checker
-This Python program assesses the strength of a password based on various criteria, offering users feedback on the complexity of their password.
+This Python program assesses the strength of a password by evaluating it against several criteria, offering feedback on the password's complexity.
 
 # Features
-Length Check: Verifies that the password is at least 8 characters long.
-Uppercase Check: Confirms the presence of at least one uppercase letter.
-Lowercase Check: Confirms the presence of at least one lowercase letter.
-Number Check: Ensures the inclusion of at least one numeric digit.
-Special Character Check: Checks for the presence of at least one special character (e.g., !@#$%^&*()).
-Feedback: Provides a summary of the password's strength and specific suggestions for improvement.
+Length Check: Confirms the password is at least 8 characters long.
+Uppercase Check: Ensures there is at least one uppercase letter.
+Lowercase Check: Ensures there is at least one lowercase letter.
+Number Check: Confirms the presence of at least one numeric digit.
+Special Character Check: Verifies the inclusion of at least one special character (e.g., !@#$%^&*()).
+Feedback: Provides a detailed summary of the password's strength along with specific recommendations for improvement.
 
 # How It Works
-The program employs regular expressions to detect uppercase and lowercase letters, numbers, and special characters. It calculates the number of criteria met to determine the overall strength of the password and offers appropriate feedback.
+The program uses regular expressions to detect the presence of uppercase and lowercase letters, numbers, and special characters. It calculates the total number of criteria met to evaluate the password's strength and provides appropriate feedback.
 
 # Requirements
 Python 3.x
